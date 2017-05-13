@@ -195,3 +195,136 @@ figure {
 .about > p {
   margin: 0;
 }
+
+/*MEDIA*/
+
+@media screen and (min-width: 480px) {
+  .site-logo {
+    position: fixed;
+    top: 15px;
+    left: 9px;
+    width: 61px;
+    height: 80px;
+    margin: 0;
+    z-index: 200;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px){
+  .site-nav {
+  position: fixed;
+  left: -9px;
+  width: 6em;
+  z-index: 100;
+  background-color: #ffffff;
+  display: block;
+  height: 100%;
+  float: left;
+  text-align: center;
+  clear: both;
+  top: 0px;
+  }
+
+span.site-nav-item-label {
+    display: inline-table;
+  }
+}
+@media screen and (min-width: 480px){
+.site-nav-list,
+.footer-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 1rem;
+  padding: 1rem;
+  float: left;
+  margin-top: 4rem;
+  clear: both;
+  left: -9px
+  font-size: 49px;
+  }
+
+.site-nav-item > .fa {
+  font-size: 42px;
+}
+
+.site-nav-item-label{
+  font-size: 11px;
+}
+}
+
+@media screen and (min-width: 480px){
+.site-nav-item {
+  float: left;
+  width: 20%;
+  height: 60px;
+  padding: 0.75em;
+  font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.6em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 4px;
+  margin-bottom: 30px;
+  }
+
+ .site-nav-list, .footer-nav-list{
+   text-align: center;
+   list-style-type: none;
+ }
+}
+
+@media screen and (min-width: 480px){
+  article.movie {
+      width: 97%;
+      float: right;
+      left: 35px;
+    }
+}
+
+@media screen and (min-width: 480px){
+  ul.footer-nav-list{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px){
+  img.movie-backdrop {
+    width: 715px;
+    margin-left: 30px;
+  }
+  p.movie-overview{
+    display: inline;
+  }
+  .movie-details {
+    position: absolute;
+    bottom: 0;
+    left: 19px;
+    right: 0;
+    width: 93%;
+  }
+}
+
+@media screen and (min-width: 480px){
+  ul.footer-nav-list{
+    display: inline-flex;
+    float: left;
+  }
+  section.about {
+      width: 50%;
+      float: right;
+      display: inline-block;
+      padding: 7px;
+    }
+}
+
+@media screen and (min-width: 480px){
+  li.footer-nav-item {
+    padding-left: 111px;
+    width: 50%:auto;
+
+  }
+
+}
